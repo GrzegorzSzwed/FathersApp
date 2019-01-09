@@ -1,0 +1,97 @@
+//2018 12 22 Grzegorz Szwed
+//TasksNames 
+Kod szkoly
+Kod ucznia
+//Czêœæ I Zad 1 - 10
+I.1
+I.2
+I.3
+I.4
+I.5
+I.6
+I.7
+I.8
+I.9
+I.10
+//Czêœæ I Zad 11 - 14
+I.11
+I.12
+I.13
+I.14
+//Czêœæ I Zad 15
+I.15
+//Czêœæ II Zad 1
+II.I.1
+II.I.2
+II.I.3
+II.I.4
+II.I.5
+II.I.6
+II.I.7
+II.I.8
+II.I.9
+II.I.10
+II.I.11
+//Czêœæ II Zad 2
+II.II.1
+II.II.2
+II.II.3
+II.II.4
+II.II.5
+II.II.6
+II.II.7
+II.II.8
+II.II.9
+II.II.10
+II.II.11
+II.II.12
+II.II.13
+II.II.14  
+//Czêœæ II Zad 3
+II.III.1
+II.III.2
+II.III.3
+II.III.4
+II.III.5
+II.III.6
+II.III.7
+II.III.8
+II.III.9
+II.III.10            
+//Czêœæ II Zad 4
+II.IV.1
+//Czêœæ II Zad 5
+II.V.1
+II.V.2
+II.V.3
+II.V.4
+II.V.5
+//Czêœæ II Zad 6
+II.VI.1
+II.VI.2
+II.VI.3
+II.VI.4
+II.VI.5
+II.VI.6
+II.VI.7
+//Czêœæ III
+III.1
+III.2
+III.3
+III.4
+III.5
+III.6
+III.7
+III.8
+III.9
+III.10
+III.11
+III.12
+III.13
+III.14
+III.15
+III.16
+III.17
+III.18
+III.19
+III.20      

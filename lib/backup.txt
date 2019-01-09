@@ -1,0 +1,82 @@
+table.Columns.Add(Kod szko³y, typeof(string));
+            table.Columns.Add(Kod ucznia, typeof(string));
+            Czêœæ I Zad 1 - 10
+            table.Columns.Add(Zadanie 1, typeof(string));
+            table.Columns.Add(Zadanie 2, typeof(string));
+            table.Columns.Add(Zadanie 3, typeof(string));
+            table.Columns.Add(Zadanie 4, typeof(string));
+            table.Columns.Add(Zadanie 5, typeof(string));
+            table.Columns.Add(Zadanie 6, typeof(string));
+            table.Columns.Add(Zadanie 7, typeof(string));
+            table.Columns.Add(Zadanie 8, typeof(string));
+            table.Columns.Add(Zadanie 9, typeof(string));
+            table.Columns.Add(Zadanie 10, typeof(string));
+
+            Czêœæ I Zad 11 - 14
+            table.Columns.Add(Zadanie 11, typeof(string));
+            table.Columns.Add(Zadanie 12, typeof(string));
+            table.Columns.Add(Zadanie 13, typeof(string));
+            table.Columns.Add(Zadanie 14, typeof(string));
+
+            Czêœæ I Zad 15
+            table.Columns.Add(Zadanie 15, typeof(string));
+
+            Czêœæ II Zad 1
+            table.Columns.Add(Zadanie I.1, typeof(string));
+            table.Columns.Add(Zadanie I.2, typeof(string));
+            table.Columns.Add(Zadanie I.3, typeof(string));
+            table.Columns.Add(Zadanie I.4, typeof(string));
+            table.Columns.Add(Zadanie I.5, typeof(string));
+            table.Columns.Add(Zadanie I.6, typeof(string));
+            table.Columns.Add(Zadanie I.7, typeof(string));
+            table.Columns.Add(Zadanie I.8, typeof(string));
+            table.Columns.Add(Zadanie I.9, typeof(string));
+            table.Columns.Add(Zadanie I.10, typeof(string));
+            table.Columns.Add(Zadanie I.11, typeof(string));
+
+            Czêœæ II Zad 2
+            table.Columns.Add(Zadanie II.1, typeof(string));
+            table.Columns.Add(Zadanie II.2, typeof(string));
+            table.Columns.Add(Zadanie II.3, typeof(string));
+            table.Columns.Add(Zadanie II.4, typeof(string));
+            table.Columns.Add(Zadanie II.5, typeof(string));
+            table.Columns.Add(Zadanie II.6, typeof(string));
+            table.Columns.Add(Zadanie II.7, typeof(string));
+            table.Columns.Add(Zadanie II.8, typeof(string));
+            table.Columns.Add(Zadanie II.9, typeof(string));
+            table.Columns.Add(Zadanie II.10, typeof(string));
+            table.Columns.Add(Zadanie II.11, typeof(string));
+            table.Columns.Add(Zadanie II.12, typeof(string));
+            table.Columns.Add(Zadanie II.13, typeof(string));
+            table.Columns.Add(Zadanie II.14, typeof(string));
+
+            Czêœæ II Zad 3
+            table.Columns.Add(Zadanie III.1, typeof(string));
+            table.Columns.Add(Zadanie III.2, typeof(string));
+            table.Columns.Add(Zadanie III.3, typeof(string));
+            table.Columns.Add(Zadanie III.4, typeof(string));
+            table.Columns.Add(Zadanie III.5, typeof(string));
+            table.Columns.Add(Zadanie III.6, typeof(string));
+            table.Columns.Add(Zadanie III.7, typeof(string));
+            table.Columns.Add(Zadanie III.8, typeof(string));
+            table.Columns.Add(Zadanie III.9, typeof(string));
+            table.Columns.Add(Zadanie III.10, typeof(string));
+
+            Czêœæ II Zad 4
+            table.Columns.Add(Zadanie IV.1, typeof(string));
+
+            Czêœæ II Zad 5
+            table.Columns.Add(Zadanie V.1, typeof(string));
+            table.Columns.Add(Zadanie V.2, typeof(string));
+            table.Columns.Add(Zadanie V.3, typeof(string));
+            table.Columns.Add(Zadanie V.4, typeof(string));
+            table.Columns.Add(Zadanie V.5, typeof(string));
+
+            Czêœæ II Zad 6
+            table.Columns.Add(Zadanie VI.1, typeof(string));
+            table.Columns.Add(Zadanie VI.2, typeof(string));
+            table.Columns.Add(Zadanie VI.3, typeof(string));
+            table.Columns.Add(Zadanie VI.4, typeof(string));
+            table.Columns.Add(Zadanie VI.5, typeof(string));
+            table.Columns.Add(Zadanie VI.6, typeof(string));
+            table.Columns.Add(Zadanie VI.7, typeof(string));
