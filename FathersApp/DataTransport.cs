@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Data;
 using System.Windows.Forms;
+using FathersApp.Properties;
 
 namespace FathersApp
 {
@@ -12,7 +13,11 @@ namespace FathersApp
         public static string DTinit()
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
-            openFileDialog.InitialDirectory = @"C:\";
+            if (Settings.Default.PathDocumentation.ToString() == string.Empty)
+                openFileDialog.InitialDirectory = @"C:\";
+            else
+                openFileDialog.InitialDirectory = Settings.Default.PathDocumentation.ToString();
+
             openFileDialog.Multiselect = false;
             openFileDialog.Filter = "Excel Files|*.xls; *.xlsx; *.xlsm";
             openFileDialog.Title = "Wybierz plik excel bazy danych";
@@ -22,6 +27,7 @@ namespace FathersApp
             switch(dialogResult)
             {
                 case DialogResult.OK:
+                    Settings.Default.PathDocumentation = openFileDialog.FileName;
                     return openFileDialog.FileName;
                 default:
                     break;
@@ -51,7 +57,7 @@ namespace FathersApp
                 ExWorksheet.Activate();
                 if (!ExWorksheet.ProtectContents)
                 {
-                    var emptyRow = ExWorksheet.UsedRange.Rows.Count + 1;
+                    var emptyRow = ExWorksheet.UsedRange.Rows.Count;
                     var col_max = dataGridView.Columns.Count;
                     var row_max = dataGridView.Rows.Count;
 
@@ -59,7 +65,7 @@ namespace FathersApp
                     {
                         for (var col = 0; col < col_max; col++)
                         {
-                            ExWorksheet.Cells[row + emptyRow, col + 1].value = dataGridView.Rows[row].Cells[col].Value;
+                            ExWorksheet.Cells[emptyRow + row + 1, col + 1].value = dataGridView.Rows[row].Cells[col].Value;
                         }
                     }
 
